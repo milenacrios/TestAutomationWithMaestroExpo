@@ -1,0 +1,12 @@
+# flow.yaml
+
+appId: app-maestro.app.id
+---
+  - launchApp
+    clearState: true
+
+- tapOn: "digite seu email" #placeholder
+- inputText: "teste@gmail.com"
+- tapOn: "digite sua senha"
+- inputTex: "123456"
+- tapOn: "Enviar"
